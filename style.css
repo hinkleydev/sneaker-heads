@@ -27,3 +27,27 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+.balthazar-regular {
+    font-family: "Balthazar", serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+body {
+    background-image: url(https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /* Background */
+    font-family: Balthazar;
+}
+/* This is so pixely I really don't like it */
+
+.textbox {
+    border-radius: 1em;
+}
+
+#title-box {
+    background-image: linear-gradient(#74c9f1, red);
+    text-align: center;
+}
