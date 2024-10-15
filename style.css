@@ -44,12 +44,18 @@ body {
 /* This is so pixely I really don't like it */
 
 .textbox {
+    max-width: 50%;
     background-color: #74c9f1;
     border-radius: 1em;
     color: white;
     font-size: 1.5em;
     max-width: 50%;
     padding: 0.5em;
+    border: red solid 1px;
+}
+
+.textbox > p > a {
+    color: white;
 }
 
 #title-box {
@@ -59,4 +65,9 @@ body {
     color: black;
     font-size: initial;
     padding: initial;
+    border: initial;
+}
+
+#row1 > div, #row2 > div {
+    margin: 1em 0em;
 }
