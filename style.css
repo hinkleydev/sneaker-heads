@@ -45,7 +45,8 @@ body {
 
 .row {
     max-width: 50%;
-    margin: auto;
+    display: inline-table;
+    float: left;
 }
 
 .textbox {
